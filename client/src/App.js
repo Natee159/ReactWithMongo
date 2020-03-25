@@ -12,7 +12,6 @@ import LU from './LU';
 import Cramer from './Cramer';
 import NewtonDivide from './NewtonDivide';
 import Lagrange from './Lagrange';
-import Polynomial from './Polynomial';
 import CompositeTrapezoidal from './CompositeTrapezoidal';
 import CompositeSimpson from './CompositeSimpson';
 import Forward from './Forward';
@@ -36,7 +35,6 @@ function App() {
     const pageLU = () => setpage(<LU/>)
     const pageNewtonDivide = () => setpage(<NewtonDivide/>)
     const pageLagrange = () => setpage(<Lagrange/>)
-    const pagePolynomial = () => setpage(<Polynomial/>)
     const pageCompositeTrapezoidal = () => setpage(<CompositeTrapezoidal/>)
     const pageCompositeSimpson = () => setpage(<CompositeSimpson/>)
     const pageForward = () => setpage(<Forward/>)
@@ -94,17 +92,6 @@ function App() {
             >
               <Menu.Item onClick={pageNewtonDivide} key="14">Newton Divide Difference</Menu.Item>
               <Menu.Item onClick={pageLagrange} key="15">Lagrange</Menu.Item>
-            </SubMenu>
-            <SubMenu
-              key="sub4"
-              title={
-                <span>
-                  <Icon type="file" />
-                  <span>Least Square Error</span>
-                </span>
-              }
-            >
-              <Menu.Item onClick={pagePolynomial} key="18">Polynomial Regression</Menu.Item>
             </SubMenu>
             <SubMenu
               key="sub5"
