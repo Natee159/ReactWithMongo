@@ -141,7 +141,8 @@ function CompositeSimpson() {
       </Row>
       <div>
         <Button onClick={codesimpson} type="primary">input</Button>
-        {data}
+        <br></br>
+        <h1>ANS :{data}</h1> 
       </div>
 
     </Content>

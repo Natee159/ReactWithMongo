@@ -140,7 +140,8 @@ function CompositeTrapzoidal() {
       </Row>
       <div>
         <Button onClick={codetrap} type="primary">input</Button>
-        {data}
+        <br></br>
+        <h1>ANS :{data}</h1> 
       </div>
 
     </Content>
