@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.22.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "d3": "^3.5.17",
     "function-plot": "^1.19.1",
     "mathjs": "^6.6.1",
